@@ -1,4 +1,4 @@
-FROM google/cloud-sdk:319.0.0-alpine as builder
+FROM google/cloud-sdk:325.0.0-alpine as builder
 
 RUN gcloud -q components update
 RUN gcloud -q components install bigtable
